@@ -78,6 +78,13 @@ body{
     text-decoration: none;
     margin-left: 1em;
 }
+.lista_link li:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.lista_link a:hover{
+    color: gray;
+}
 .rodape{
     text-align: center;
 }
