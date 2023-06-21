@@ -60,3 +60,33 @@ body{
     font-size: 38px;
     color: var(--branco-principal);
 }
+
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 5em 0;
+}
+.dispositivos{
+    text-align: center;
+}
+.lista_itens{
+    font-size: 30px;
+}
+.lista_link a{
+    color: var(--branco-principal);
+    text-decoration: none;
+    margin-left: 1em;
+}
+.rodape{
+    text-align: center;
+}
+.rodape li{
+    display: inline-block;
+}
+.texto_rodape b{
+    color: pink;
+}
+p.texto_rodape{
+    padding: 10px;
+}
